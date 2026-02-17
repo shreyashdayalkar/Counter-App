@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -16,7 +17,6 @@ const Counter = () => {
   }
   return (
     <div>
-      return (
       <>
         <h1>Counter App</h1>
         <p>Count : {count}</p>
